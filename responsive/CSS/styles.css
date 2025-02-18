@@ -109,7 +109,7 @@ img {
         display: flex;
         
     }
-    #col {
+    .col {
         width: 50%;
         border: 2px solid black;
     margin: 20px;
