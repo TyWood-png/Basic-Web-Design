@@ -1,0 +1,157 @@
+/* Global Styles */
+
+body {
+    background-color: #B7BF99;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+   
+    border-radius: 30px;
+}
+#video{
+    text-align: center;
+    width: 100%;
+   
+
+}
+
+#container {
+    background-color:whitesmoke
+    
+}
+.banner {
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #000;
+    width:80%;
+    
+}
+
+/* Mobile Styles */
+@media (min-width: 320px) {
+
+    nav {
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background-color:#B7BF99;
+        color: #000;
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+    nav li a:hover {
+        background-color: whitesmoke;
+    }
+    main {
+        padding: 20px;
+    }
+    h1, h2, h3 {
+        text-align: center;
+        text-shadow: 2px 2px 2px #B7BF99;
+        font-family: 'Big Shoulders', sans-serif;
+    }
+    footer {
+        text-align: center;
+        text-shadow: 2px 1px 2px #B7BF99;
+        padding: 40px;
+    }
+    .col_images {
+        width: 90%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #000;
+    }
+   
+    
+    }
+    /* Tablet Styles */
+
+@media (min-width: 768px) {
+   
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+   .col_images {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000;
+   }
+   .ul_style {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 50px;
+    font-size: larger;
+   }
+
+}
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid #000;
+        border-radius: 20px;
+    }
+    nav {
+        padding: 0;
+       
+    }
+    nav li a {
+        background-color:#B7BF99;
+    }
+    hr {
+        display: none;
+    }
+    .multi_column {
+        display: flex;
+        
+    }
+    .col {
+        width: 50%;
+        border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    }
+    
+    .col_images{
+        width:80%;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px #000;
+    }
+    .ul_style {
+        list-style-type: none;
+        text-align: center;
+        margin-right: 50px;
+        font-size: larger;
+       }
+
+    
+    
+
+
+
+}
